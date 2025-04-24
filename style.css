@@ -49,6 +49,7 @@ input[type="text"] {
 
 .Button:hover {
   background: #eee;
+  color: #ffc943;
 }
 
 .Message {
