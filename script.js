@@ -21,7 +21,7 @@ function onload(){
 
   socket.on("recieve", function(message){
     console.log(message);
-    if (messages.length < 9){
+    if (messages.length < 10){
       messages.push(message);
       dingSound.currentTime = 0;
       dingSound.play();
